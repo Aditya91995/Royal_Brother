@@ -1,0 +1,128 @@
+.contact-number a{
+color: black;
+text-decoration: none;
+}
+/* nav */
+
+/* side nav */
+.sidenav {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 40px;
+  }
+  
+  .sidenav a {
+    height: 60px;
+    padding: 8px 8px 8px 32px;
+    margin: 10px 0px 0px 0px;
+    text-decoration: none;
+    color: rgb(138, 127, 127);
+    display: block;
+    transition: 0.0s;
+    font-size: 25px;
+  }
+  
+  .sidenav a:hover {
+    background-color: none;
+    color: none;
+  }
+  
+  .sidenav .closebtn {
+      margin: 0px 0px 0px 20px;
+      padding: 0px 0px 0px 5px;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 30px;
+    
+  }
+  /* dropdown */
+  .dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .navLinks{
+      text-decoration: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  }
+  .navLocation a{
+      text-decoration: none;
+      text-decoration: none;
+      color: black;
+      padding: 12px 16px;   
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(255, 230, 0);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: rgb(255, 230, 0)    ;}
+
+  .navhover:hover{
+    background-color: rgb(255, 230, 0)    ;
+  }
+
+/* main content */
+.topBackImage{
+    background-image: url("https://d36g7qg6pk2cm7.cloudfront.net/assets/redesign/home_back_june-760c94ec6cba24f16e94abd16473fa36629ac92468a73289bbefba546692f877.jpg");
+    /* background-position: 60%; */
+    margin-top: 90px;
+    background-size: cover;
+    height:auto;
+    width: 100%;
+    max-width: 100%;
+    min-height: 90vh;
+    
+}
+.dateTime{
+    left: 150px;
+    top: 200px;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: inherit;
+}
+  .topBackImage span{
+      margin-top: 300px;
+      /* position: relative; */
+      bottom: 1px;
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
